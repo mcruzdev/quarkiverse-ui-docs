@@ -1,0 +1,9 @@
+name: "Quarkiverse UI Docs"
+description: "Generate your asciidoc documentation with Quarkiverse look and feel"
+inputs:
+  github-token:
+    description: "GitHub token"
+    required: false
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/mcruzdev/quarkiverse-ui-docs:main"
